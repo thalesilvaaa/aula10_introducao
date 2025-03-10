@@ -7,7 +7,7 @@ export default function Contato() {
     const [nome, alteraNome] = useState(""); // Estado para armazenar o nome
     const [mensagem, alteraMensagem] = useState(""); // Estado para armazenar a mensagem
     const erro = () => toast.error("Erro!");
-    const sucesso = () => toast.success("Deu!");
+    const sucesso = () => toast.success("Deu!"); //teste1234
 
 
     function enviaMensagem(e) {
