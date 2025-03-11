@@ -69,9 +69,9 @@ function Quiz() {
             <h2>Quanto é dos + 2?</h2>
             
                 <p className={selecionado[0]} onClick={()=> {alteraP3(1); alteraselecionado(["selecionado","","",""])}}>2</p>
-                <p className={selecionado[1]} onClick={()=> {alteraP3(1); alteraselecionado(["","selecionado","",""])}}>0</p>
-                <p className={selecionado[2]} onClick={()=> {alteraP3(1); alteraselecionado(["","","selecionado",""])}}>aaaaaa</p>
-                <p className={selecionado[3]} onClick={()=> {alteraP3(1); alteraselecionado(["","","","selecionado"])}}>sim</p>
+                <p className={selecionado[1]} onClick={()=> {alteraP3(0); alteraselecionado(["","selecionado","",""])}}>0</p>
+                <p className={selecionado[2]} onClick={()=> {alteraP3(0); alteraselecionado(["","","selecionado",""])}}>aaaaaa</p>
+                <p className={selecionado[3]} onClick={()=> {alteraP3(0); alteraselecionado(["","","","selecionado"])}}>sim</p>
                 
           
 
