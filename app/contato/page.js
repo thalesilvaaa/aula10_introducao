@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Não se esqueça de importar o CSS necessário
+import Menu from "../produtos/components/Menu";
 
 export default function Contato() { 
     const [nome, alteraNome] = useState(""); // Estado para armazenar o nome
@@ -53,6 +54,8 @@ export default function Contato() {
             </form>
 
             <ToastContainer /> {/* Componente que exibe as notificações */}
+
+            <Menu/>
         </div>
     );
 }

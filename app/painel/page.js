@@ -1,4 +1,6 @@
 'use client'
+import Menu from "../produtos/components/Menu";
+import Produtos from "../produtos/page";
 import "./painel.css"
 import { useState } from "react";
 
@@ -31,6 +33,8 @@ function Painel() {
     return (  
         <div>
                 <h1>Painel administrativo</h1>
+
+        
 
                 <label>
                     Digite Usuario
@@ -67,7 +71,7 @@ function Painel() {
                 }
                         
                 
-                
+                <Menu/>
                 
 
         </div>
